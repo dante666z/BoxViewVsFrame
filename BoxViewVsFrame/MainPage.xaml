@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BoxViewVsFrame.MainPage">
+    <!--<Grid RowDefinitions="*, *"
+          Padding="20">
+        <BoxView BackgroundColor="#8664FF"
+                 CornerRadius="20, 20, 0, 0"
+                 Margin="20" />
+        <Frame Grid.Row="1"
+               CornerRadius="20"
+               BackgroundColor="#8664FF"
+               Margin="20">
+            <Label Text="Hola"
+                   FontSize="50"
+                   FontAttributes="Bold"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+        </Frame>
+    </Grid>-->
+    <Grid RowDefinitions="100, *">
+        <!--<BoxView BackgroundColor="#8664FF"
+                 CornerRadius="40, 40, 0, 0"
+                 Grid.Row="1"/>-->
+        <Frame BackgroundColor="#8664FF"
+                 CornerRadius="40"
+                 Grid.Row="1"/>
+        <!--<Label Text="Hola" Grid.Row="1"/>-->
+    </Grid>
+
+</ContentPage>
